@@ -1,6 +1,6 @@
 import { Resend } from "resend";
 
-const resend = new Resend('re_UQ2rAkCj_NJVoK6PjuydRYUPSxh7UfkvH');
+const resend = new Resend('');
 
 export const CreateEmail = async (request, response) => {
     try {
