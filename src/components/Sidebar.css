@@ -1,0 +1,39 @@
+.sidebar-container {
+    background-color: #0a1d3b;
+    width: 20%;
+    min-height: 100vh;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #e0e0e0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .features-tabs {
+    padding: 15px 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #f0eeee;
+    transition: background-color 0.2s ease;
+  }
+  
+  .features-tabs:hover {
+    background-color: #163b76;
+  }
+  
+  .active-tab {
+    background-color: #163b76;
+    font-weight: 600;
+    color: #ffffff;
+    border-left: 9px solid #1d4ed8;
+  }
+  
+  .dropdown {
+    padding-left: 40px;
+    font-size: 14px;
+    color: #555;
+  }
+  

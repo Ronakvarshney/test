@@ -1,0 +1,44 @@
+.fetch-users-container {
+    background-color: #1c3550;
+
+    padding: 40px;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.student-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.student-card {
+    background-color: #0a1d3b;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.student-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.student-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #7e8894;
+}
+
+.student-card p {
+    margin: 5px 0;
+    color: #786c6c;
+}

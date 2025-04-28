@@ -1,0 +1,61 @@
+.profile-tab-container {
+    background-color: #1c3550;
+    padding: 30px;
+    color: #e2ebf3;
+    width: 80%;
+    height: 100vh;
+    right: 0;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #d2e7fb;
+    align-self: flex-start;
+  }
+  
+  .avatar-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+  }
+  
+  .avatar-icon {
+    font-size: 100px;
+    color: #4180e8;
+  }
+  
+  .camera-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #1c3550;
+    padding: 6px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .profile-name {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  .profile-info-box {
+    background-color: #1a2e45;
+    border-radius: 8px;
+    padding: 12px 16px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 15px;
+  }
+  

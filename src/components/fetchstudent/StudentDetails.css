@@ -1,0 +1,49 @@
+/* StudentDetails.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0a1d3b;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .student-details-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #152a45;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .student-card-details {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .student-card-details h2 {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+  }
+  
+  .student-card-details p {
+    font-size: 18px;
+    color: #e0e0e0;
+    line-height: 1.6;
+  }
+  
+  .student-card-details p strong {
+    color: #ffffff;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 100px 0;
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
